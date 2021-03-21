@@ -1,0 +1,57 @@
+:root{
+    --top-section-text-color: #525252;
+    --button-color: coral;
+    --button-color-hover: Lightcoral;
+    --bg-section-color: #343a40;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar .navbar-brand{
+    font-size: 2.2em;
+}
+
+.navbar a{
+    font-size: 1.2em;
+}
+
+.navbar button{
+    font-size: 1em;
+}
+
+.btn-link{
+    background-color: var(--button-color);
+    font-size: 1em;
+}
+
+.btn-link:hover{
+    background-color: var(--button-color-hover);
+}
+
+.section-1 p{
+    font-size: 1.2em;
+    color: var(--top-section-text-color);
+}
+
+.section-1 h2{
+    font-size: 2.6em;
+}
+
+.section-2, footer{
+    background-color: var(--bg-section-color);
+}
+
+.section-2 .card{
+    background-color: var(--bg-section-color);
+    border: 1px solid var(--bg-section-color);
+}
+
+.section-3 .card{
+    border: 2px solid white;
+}
+
+
+
